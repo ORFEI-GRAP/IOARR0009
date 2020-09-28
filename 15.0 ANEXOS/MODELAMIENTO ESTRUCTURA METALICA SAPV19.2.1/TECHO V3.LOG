@@ -1,0 +1,238 @@
+
+
+ SAP2000 v20.2.0 Ultimate 64-bit (Analysis Build 9663/64)
+ File: D:\ARCHIVO\PROYECTOS 20...NTO ESTRUCTURA METALICA SAPV19.2.1\TECHO V3.LOG
+
+
+
+
+ B E G I N   A N A L Y S I S                                2019/10/27  14:54:29
+
+
+ RUNNING ANALYSIS WITHIN THE GUI PROCESS
+ USING THE ADVANCED SOLVER (PROVIDES LIMITED INSTABILITY INFORMATION)
+
+ NUMBER OF JOINTS                          =        1018
+    WITH RESTRAINTS                        =          14
+ NUMBER OF FRAME/CABLE/TENDON ELEMENTS     =        1683
+ NUMBER OF SHELL ELEMENTS                  =         132
+ NUMBER OF LOAD PATTERNS                   =           9
+ NUMBER OF ACCELERATION LOADS              =           9
+ NUMBER OF LOAD CASES                      =          13
+
+ ADDRESSABLE PHYSICAL MEMORY (RAM)         =       7.881 GB
+
+ PARALLELIZATION OF ANALYSIS OPERATIONS:
+ (Env. variable SAPFIRE_NUM_THREADS        =           0)
+ NUMBER OF THREADS: STATE (AUTOMATIC)      =           2
+ NUMBER OF THREADS: STIFFNESS (AUTOMATIC)  =           2
+ NUMBER OF THREADS: EVENT (AUTOMATIC)      =           2
+ NUMBER OF THREADS: MOVE (AUTOMATIC)       =           2
+ NUMBER OF THREADS: RESPONSE (AUTOMATIC)   =           2
+ NUMBER OF THREADS: SOLVE (AUTOMATIC)      =           2
+ NUMBER OF THREADS: FORM (AUTOMATIC)       =           2
+
+
+ E L E M E N T   F O R M A T I O N                                      14:54:29
+
+
+
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        14:54:30
+
+ FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =        6024
+ NUMBER OF NON-ZERO STIFFNESS TERMS        =       97728
+
+ ---------------------------------
+ BASIC STABILITY CHECK FOR LINEAR LOAD CASES:
+    NUMBER OF NEGATIVE STIFFNESS EIGENVALUES SHOULD BE ZERO FOR STABILITY.
+    (NOTE: FURTHER CHECKS SHOULD BE CONSIDERED AS DEEMED NECESSARY,
+     SUCH AS REVIEWING EIGEN MODES FOR MECHANISMS AND RIGID-BODY MOTION)
+
+    NUMBER OF NEGATIVE EIGENVALUES         =           0,  OK.
+ ---------------------------------
+
+
+ L I N E A R   S T A T I C   C A S E S                                  14:54:30
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ TOTAL NUMBER OF CASES TO SOLVE            =          10
+ NUMBER OF CASES TO SOLVE PER BLOCK        =          10
+
+ LINEAR STATIC CASES TO BE SOLVED:
+
+ CASE: DEAD
+ CASE: SOBRECARGA
+ CASE: VIVA DE TECHO
+ CASE: NIEVE
+ CASE: VIENTO
+ CASE: VIENTO 2
+ CASE: VIENTO 3
+ CASE: PERMANENTE
+ CASE: SISMOX
+ CASE: SISMOY
+
+
+ E I G E N   M O D A L   A N A L Y S I S                                14:54:30
+
+ CASE: MODAL
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ NUMBER OF STIFFNESS DEGREES OF FREEDOM    =        6024
+ NUMBER OF MASS DEGREES OF FREEDOM         =        3012
+ MAXIMUM NUMBER OF EIGEN MODES SOUGHT      =          40
+ MINIMUM NUMBER OF EIGEN MODES SOUGHT      =           1
+ NUMBER OF RESIDUAL-MASS MODES SOUGHT      =           0
+ NUMBER OF SUBSPACE VECTORS USED           =          24
+ RELATIVE CONVERGENCE TOLERANCE            =    1.00E-09
+
+ FREQUENCY SHIFT  (CENTER) (CYC/TIME)      =     .000000
+ FREQUENCY CUTOFF (RADIUS) (CYC/TIME)      =  -INFINITY-
+ ALLOW AUTOMATIC FREQUENCY SHIFTING        =         YES
+
+
+ Original stiffness at shift : EV= 0.0000000E+00, f=     .000000, T=  -INFINITY-
+ Number of eigenvalues below shift =      0
+ Found mode      1 of     40:  EV= 7.6057733E+00, f=    0.438927, T=    2.278286
+ Found mode      2 of     40:  EV= 7.6062160E+00, f=    0.438939, T=    2.278219
+ Found mode      3 of     40:  EV= 1.7068287E+01, f=    0.657529, T=    1.520845
+ Found mode      4 of     40:  EV= 1.7068472E+01, f=    0.657533, T=    1.520837
+ Found mode      5 of     40:  EV= 1.9043715E+02, f=    2.196322, T=    0.455307
+ Found mode      6 of     40:  EV= 2.2504224E+02, f=    2.387548, T=    0.418840
+ Found mode      7 of     40:  EV= 3.2136889E+02, f=    2.853133, T=    0.350492
+ Found mode      8 of     40:  EV= 5.9782316E+02, f=    3.891406, T=    0.256977
+ Found mode      9 of     40:  EV= 6.0456424E+02, f=    3.913284, T=    0.255540
+ Found mode     10 of     40:  EV= 1.0524671E+03, f=    5.163265, T=    0.193676
+ Found mode     11 of     40:  EV= 1.2091226E+03, f=    5.534206, T=    0.180694
+ Found mode     12 of     40:  EV= 1.2613869E+03, f=    5.652548, T=    0.176911
+ Found mode     13 of     40:  EV= 1.3058373E+03, f=    5.751282, T=    0.173874
+ Found mode     14 of     40:  EV= 1.7316611E+03, f=    6.622952, T=    0.150990
+ Found mode     15 of     40:  EV= 1.7713538E+03, f=    6.698426, T=    0.149289
+ Found mode     16 of     40:  EV= 1.7822401E+03, f=    6.718978, T=    0.148832
+ Found mode     17 of     40:  EV= 2.0443848E+03, f=    7.196171, T=    0.138963
+ Found mode     18 of     40:  EV= 2.2033559E+03, f=    7.470720, T=    0.133856
+ Found mode     19 of     40:  EV= 2.3439014E+03, f=    7.705304, T=    0.129781
+
+ Forming stiffness, new shift: EV= 2.7110570E+03, f=    8.286850, T=    0.120673
+ Number of eigenvalues below shift =     19
+ Found mode     20 of     40:  EV= 2.8537441E+03, f=    8.502128, T=    0.117618
+ Found mode     21 of     40:  EV= 3.0156460E+03, f=    8.739977, T=    0.114417
+ Found mode     22 of     40:  EV= 3.1094299E+03, f=    8.874840, T=    0.112678
+ Found mode     23 of     40:  EV= 3.2220559E+03, f=    9.034137, T=    0.110691
+ Found mode     24 of     40:  EV= 3.3056443E+03, f=    9.150571, T=    0.109283
+ Found mode     25 of     40:  EV= 3.3725343E+03, f=    9.242689, T=    0.108194
+ Found mode     26 of     40:  EV= 3.4698652E+03, f=    9.375111, T=    0.106665
+ Found mode     27 of     40:  EV= 3.7701950E+03, f=    9.772418, T=    0.102329
+ Found mode     28 of     40:  EV= 3.8340766E+03, f=    9.854862, T=    0.101473
+ Found mode     29 of     40:  EV= 3.9851666E+03, f=   10.047161, T=    0.099531
+ Found mode     30 of     40:  EV= 3.9884966E+03, f=   10.051358, T=    0.099489
+ Found mode     31 of     40:  EV= 4.0131735E+03, f=   10.082404, T=    0.099183
+ Found mode     32 of     40:  EV= 4.0287228E+03, f=   10.101918, T=    0.098991
+ Found mode     33 of     40:  EV= 4.0692345E+03, f=   10.152582, T=    0.098497
+ Found mode     34 of     40:  EV= 4.0992470E+03, f=   10.189953, T=    0.098136
+ Found mode     35 of     40:  EV= 4.1154718E+03, f=   10.210099, T=    0.097942
+ Found mode     36 of     40:  EV= 4.1357205E+03, f=   10.235186, T=    0.097702
+ Found mode     37 of     40:  EV= 4.1779205E+03, f=   10.287272, T=    0.097208
+ Found mode     38 of     40:  EV= 4.2259985E+03, f=   10.346294, T=    0.096653
+ Found mode     39 of     40:  EV= 4.2393272E+03, f=   10.362597, T=    0.096501
+ Found mode     40 of     40:  EV= 4.2420009E+03, f=   10.365864, T=    0.096470
+
+ NUMBER OF EIGEN MODES FOUND               =          40
+ NUMBER OF ITERATIONS PERFORMED            =          39
+ NUMBER OF STIFFNESS SHIFTS                =           1
+
+
+ R E S P O N S E - S P E C T R U M   A N A L Y S I S                    14:54:33
+
+ CASE: SDX
+
+ TYPE OF EXCITATION                        = STANDARD GROUND ACCELERATION
+
+ USING MODES FROM CASE: MODAL
+ NUMBER OF DYNAMIC MODES TO BE USED        =          40
+
+
+ R E S P O N S E - S P E C T R U M   A N A L Y S I S                    14:54:33
+
+ CASE: SDY
+
+ TYPE OF EXCITATION                        = STANDARD GROUND ACCELERATION
+
+ USING MODES FROM CASE: MODAL
+ NUMBER OF DYNAMIC MODES TO BE USED        =          40
+
+
+ A N A L Y S I S   C O M P L E T E                          2019/10/27  14:54:33
+
+
+ SAP2000 v20.2.0 Ultimate 64-bit (Analysis Build 9663/64)
+ File: D:\ARCHIVO\PROYECTOS 20...NTO ESTRUCTURA METALICA SAPV19.2.1\TECHO V3.LOG
+
+
+
+
+ B E G I N   A N A L Y S I S                                2019/10/27  14:54:36
+
+
+ RUNNING ANALYSIS WITHIN THE GUI PROCESS
+ USING THE ADVANCED SOLVER (PROVIDES LIMITED INSTABILITY INFORMATION)
+
+ NUMBER OF JOINTS                          =        1018
+    WITH RESTRAINTS                        =          14
+ NUMBER OF FRAME/CABLE/TENDON ELEMENTS     =        1683
+ NUMBER OF SHELL ELEMENTS                  =         132
+ NUMBER OF LOAD PATTERNS                   =           9
+ NUMBER OF ACCELERATION LOADS              =           9
+ NUMBER OF LOAD CASES                      =          13
+
+ ADDRESSABLE PHYSICAL MEMORY (RAM)         =       7.881 GB
+
+ PARALLELIZATION OF ANALYSIS OPERATIONS:
+ (Env. variable SAPFIRE_NUM_THREADS        =           0)
+ NUMBER OF THREADS: STATE (AUTOMATIC)      =           2
+ NUMBER OF THREADS: STIFFNESS (AUTOMATIC)  =           2
+ NUMBER OF THREADS: EVENT (AUTOMATIC)      =           2
+ NUMBER OF THREADS: MOVE (AUTOMATIC)       =           2
+ NUMBER OF THREADS: RESPONSE (AUTOMATIC)   =           2
+ NUMBER OF THREADS: SOLVE (AUTOMATIC)      =           2
+ NUMBER OF THREADS: FORM (AUTOMATIC)       =           2
+
+
+ E L E M E N T   F O R M A T I O N                                      14:54:36
+
+
+
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        14:54:36
+
+ FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =        6024
+ NUMBER OF NON-ZERO STIFFNESS TERMS        =       97728
+
+ ---------------------------------
+ BASIC STABILITY CHECK FOR LINEAR LOAD CASES:
+    NUMBER OF NEGATIVE STIFFNESS EIGENVALUES SHOULD BE ZERO FOR STABILITY.
+    (NOTE: FURTHER CHECKS SHOULD BE CONSIDERED AS DEEMED NECESSARY,
+     SUCH AS REVIEWING EIGEN MODES FOR MECHANISMS AND RIGID-BODY MOTION)
+
+    NUMBER OF NEGATIVE EIGENVALUES         =           0,  OK.
+ ---------------------------------
+
+
+ L I N E A R   S T A T I C   C A S E S                                  14:54:36
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ TOTAL NUMBER OF CASES TO SOLVE            =           2
+ NUMBER OF CASES TO SOLVE PER BLOCK        =           2
+
+ LINEAR STATIC CASES TO BE SOLVED:
+
+ CASE: SISMOX
+ CASE: SISMOY
+
+
+ A N A L Y S I S   C O M P L E T E                          2019/10/27  14:54:36

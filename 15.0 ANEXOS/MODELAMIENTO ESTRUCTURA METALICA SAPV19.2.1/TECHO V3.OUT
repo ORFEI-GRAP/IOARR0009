@@ -1,0 +1,43 @@
+ SAP2000 v20.2.0 Ultimate 64-bit (Analysis Build 9663/64)                       
+ File: D:\ARCHIVO\PROYECTOS 20...NTO ESTRUCTURA METALICA SAPV19.2.1\TECHO V3.OUT
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+    1003 TO     755    A   A   A   A   A   A
+     754               -   -   -   -   -   -
+     753 TO     752    A   A   A   A   A   A
+     751               -   -   -   -   -   -
+     750 TO     667    A   A   A   A   A   A
+     666               -   -   -   -   -   -
+     665 TO     664    A   A   A   A   A   A
+     663               -   -   -   -   -   -
+     662 TO     579    A   A   A   A   A   A
+     578               -   -   -   -   -   -
+     577 TO     576    A   A   A   A   A   A
+     575               -   -   -   -   -   -
+     574 TO     491    A   A   A   A   A   A
+     490               -   -   -   -   -   -
+     489 TO     488    A   A   A   A   A   A
+     487               -   -   -   -   -   -
+     486 TO     426    A   A   A   A   A   A
+     425               -   -   -   -   -   -
+     424 TO     423    A   A   A   A   A   A
+     422               -   -   -   -   -   -
+     421 TO     293    A   A   A   A   A   A
+     292               -   -   -   -   -   -
+     291 TO     290    A   A   A   A   A   A
+     289               -   -   -   -   -   -
+     288 TO     138    A   A   A   A   A   A
+     137               -   -   -   -   -   -
+     136 TO     135    A   A   A   A   A   A
+     134               -   -   -   -   -   -
+     133 TO     797    A   A   A   A   A   A
